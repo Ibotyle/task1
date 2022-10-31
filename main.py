@@ -12,6 +12,6 @@ db = User(
 )
 
 
-@app.get("/")
+@app.get("/api")
 async def fetch_users():
     return db
